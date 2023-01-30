@@ -10,7 +10,7 @@
 
 /* custom properties declaration */
 
-/* hero */
+/* Logo */
 
 .content-wrapper {
     margin: 3rem;
@@ -36,17 +36,39 @@
     text-decoration: none;
 }
 
+/*******************************Hero********************* */
 .img-wrapper {
     background-image: url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80');
     background-size: cover;
     background-position:50%;
-    min-height: 100vh;   
+    min-height: 100vh; 
+    text-align: center;  
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    
 }
 
-.clusters {
-
+.hero-text-container {
+    text-align: left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1.5rem;
+  
 }
 
+.hero-text-container>h1 {  
+    font-size: 4rem;   
+}
+
+.hero-text {
+    font-style: italic;
+    width: 20rem;
+}
+
+
+/***************************button ************************/
 .clusters-wrapper {
     text-align: center;
     margin: 2rem;
@@ -80,8 +102,7 @@ button {
     -o-transition: background-color 2s ease;
     transition: background-color 2s ease;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-    
-    
+       
 }
 
 button:hover {
@@ -89,3 +110,63 @@ button:hover {
     box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 }
 
+
+
+@media screen and (min-width: 280px) {
+    .hero-text-container {
+        text-align: left;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 1rem;
+      
+    }
+    
+    .hero-text-container>h1 {  
+        font-size: 3rem;   
+    }
+    
+    .hero-text {
+        font-style: italic;
+        width: 12rem;
+    }
+
+    .clusters-wrapper>li {
+        padding: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 700px) {
+    .img-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-text-container>h1 {
+        font-size: 7rem;
+    }
+
+    .hero-text {
+        width: 30rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .page-container {
+        display: flex;
+    }
+
+    .img-wrapper {
+        width: 50%;
+        margin: 0;
+    }
+
+    .clusters {
+        width: 50%;
+    }
+
+    .clusters-wrapper {
+        margin: 0;
+
+    }
+}

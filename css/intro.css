@@ -60,12 +60,14 @@
 }
 
 .hero-text-container>h1 {  
-    font-size: 5rem;   
+    font-size: 5rem; 
+    outline: 3px solid red;  
 }
 
 .hero-text {
     font-style: italic;
     width: 23rem;
+    outline: 3px solid red;
 }
 
 

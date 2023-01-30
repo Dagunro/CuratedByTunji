@@ -15,6 +15,7 @@
 .content-wrapper {
     margin: 3rem;
 }
+
 .logo {
     box-shadow: rgba(199, 197, 196, 0.349) 0px 10px 15px;
     margin-bottom: 0.6rem;
@@ -59,12 +60,12 @@
 }
 
 .hero-text-container>h1 {  
-    font-size: 4rem;   
+    font-size: 5rem;   
 }
 
 .hero-text {
     font-style: italic;
-    width: 20rem;
+    width: 28rem;
 }
 
 
@@ -112,7 +113,7 @@ button:hover {
 
 
 
-@media screen and (min-width: 280px) {
+@media screen and (max-width: 280px) {
     .hero-text-container {
         text-align: left;
         color: white;

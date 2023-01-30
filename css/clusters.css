@@ -43,14 +43,14 @@ body {
 /* *********************Hero section*********** */
 
 .img-wrapper {
-    background-image: url("/Images/agbado.png");
+    background-image: url("/Images/Agbado.png");
     background-size: cover;
-    background-position: 40%;
+    background-position: 50%;
     height: 100vh;
     width: 100%;
 }
 
-/******************************* progress-bar */
+/******************************* progress-bar ************/
 
 .Ac,
 .dc,
@@ -83,7 +83,7 @@ body {
 
 
 .progress-bar{
-    width: 70%;
+    width: 0%;
     height: 2rem;
     background-color: #abc270;
     border-radius: 10px;
@@ -91,17 +91,22 @@ body {
 }
 
 .progress-bar-2 {
-    width: 90%;
+    width: 0%;
 }
 
+.progress-bar-3 {
+    width: 0%;
+}
+
+.progress-bar-4 {
+    width: 0%;
+}
 table {
     margin-top: 2rem;
     margin-left: 2rem;
     border-collapse: collapse;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    
-    
-
+  
 }
 
 .table {
@@ -129,3 +134,41 @@ button {
     width: 4rem;
     color: #473c33;
 }
+
+#LG0570 {
+    background-color: #abc270;
+}
+
+footer {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center; 
+    height: 2rem;
+
+    margin-top: 3rem;
+}
+
+.footer>p {
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+    table {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .page-container {
+        display: flex;
+    }
+
+    .progress {
+        width: 50%;
+    }
+
+    .table {
+        width: 50%;
+    }
+}
+

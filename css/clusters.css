@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fefae0;
+}
+
+
+/* custom properties declaration */
+
+/* hero */
+
+.content-wrapper {
+    margin: 3rem;
+}
+.logo {
+    box-shadow: rgba(199, 197, 196, 0.349) 0px 10px 15px;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgb(224, 223, 223);
+    padding: 1rem;
+}
+
+.logo>h3 {
+    font-family: 'kalam',cursive;
+    font-size: 2rem;
+    color:#010849;
+    
+
+    /* outline: 3px solid red; */
+     
+}
+
+.logo>h3>a {
+    text-decoration: none;
+}
+
+
+/* *********************Hero section*********** */
+
+.img-wrapper {
+    background-image: url("/Images/agbado.png");
+    background-size: cover;
+    background-position: 40%;
+    height: 100vh;
+    width: 100%;
+}
+
+/******************************* progress-bar */
+
+.Ac,
+.dc,
+.elect,
+.jan {
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+} 
+
+.Ac,
+.dc,
+.elect,
+.jan {
+    padding: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.progress-container{
+    width: 100%;
+    height: 2rem;
+    background-color: tomato;
+    border-radius: 10px;
+    margin-top: 1rem;
+
+}
+
+
+
+.progress-bar{
+    width: 70%;
+    height: 2rem;
+    background-color: #abc270;
+    border-radius: 10px;
+    
+}
+
+.progress-bar-2 {
+    width: 90%;
+}
+
+table {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-collapse: collapse;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+    
+
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+tr:hover{
+    background-color: #f9ebc7;
+}
+
+th {
+    background-color: #c4661f;
+}
+
+ th,td {
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+button {
+    border: none;
+    background-color: white;
+    height: 2rem;
+    width: 4rem;
+    color: #473c33;
+}

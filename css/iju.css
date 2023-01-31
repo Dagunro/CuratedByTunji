@@ -43,7 +43,7 @@ body {
 /* *********************Hero section*********** */
 
 .img-wrapper {
-    background-image: url("/Images/Agbado.png");
+    background-image: url("/Images/iju.png");
     background-size: cover;
     background-position: 50%;
     height: 100vh;
@@ -127,22 +127,13 @@ th {
     border: 1px solid black;
 }
 
-button {
-    border: none;
-    background-color: white;
-    height: 2rem;
-    width: 4rem;
-    color: #473c33;
-}
-
-/******************FILL BELOW THIS LINE************************/
-
-#LG0570 {
+/*************FILL IN DETAILS ABOVE HERE*********************/
+#LG0121 {
     background-color: #abc270;
 }
 
-/******************FILL ABOVE THIS LINE************************/
 
+/************FILL ONLY ABOVE HERE****************************/
 
 footer {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;

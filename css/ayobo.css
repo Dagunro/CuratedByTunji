@@ -43,7 +43,7 @@ body {
 /* *********************Hero section*********** */
 
 .img-wrapper {
-    background-image: url("/Images/Ayobo.png");
+    background-image: url("https://images2.imgbox.com/ed/db/8pV0AEd9_o.png");
     background-size: cover;
     background-position: 50%;
     height: 100vh;
@@ -127,7 +127,7 @@ th {
     border: 1px solid black;
 }
 
-/*************FILL IN DETAILS ABOVE HERE*********************/
+/*************FILL IN DETAILS BELOW HERE*********************/
 #LG0121 {
     background-color: #abc270;
 }
